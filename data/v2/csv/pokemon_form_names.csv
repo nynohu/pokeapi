@@ -396,10 +396,14 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 849,9,Amped Form,Amped Toxtricity
 849,11,ハイなすがた,
 849,12,高调的样子,
-854,9,,Phony Sinistea
+854,1,がんさくフォルム,
 854,6,Fälschungsform,Fatalitee (Fälschung)
-855,9,,Phony Polteageist
+854,9,Phony Form,Phony Sinistea
+854,11,がんさくフォルム,
+855,1,がんさくフォルム,
 855,6,Fälschungsform,Mortipot (Fälschung)
+855,9,Phony Form,Phony Polteageist
+855,11,がんさくフォルム,
 869,1,ミルキィバニラ,
 869,3,밀키바닐라,
 869,4,奶香香草,
@@ -471,11 +475,38 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 892,11,いちげきのかた,
 892,12,一击流,
 902,1,オスのすがた,
-902,9,Male, Male Basculegion
+902,9,Male,Male Basculegion
 902,11,オスのすがた,
 905,1,けしんフォルム,
-905,9,Incarnate Forme, Incarnate Enamorus
+905,9,Incarnate Forme,Incarnate Enamorus
 905,11,けしんフォルム,
+916,1,オスのすがた,
+916,9,Male,
+916,11,オスのすがた,
+925,1,４ひきかぞく,
+925,9,Family of Four,
+925,11,４ひきかぞく,
+931,1,グリーンフェザー,
+931,9,Green Plumage,
+931,11,グリーンフェザー,
+964,1,ナイーブフォルム,
+964,9,Zero Form,
+964,11,ナイーブフォルム,
+978,1,そったすがた,
+978,9,Curly Form,
+978,11,そったすがた,
+982,1,ふたふしフォルム,
+982,9,Two-Segment Form,
+982,11,ふたふしフォルム,
+999,1,はこフォルム,
+999,9,Chest Form,
+999,11,はこフォルム,
+1007,1,かんぜんけいたい,
+1007,9,Apex Build,
+1007,11,かんぜんけいたい,
+1008,1,コンプリートモード,
+1008,9,Ultimate Mode,
+1008,11,コンプリートモード,
 10001,1,Ｂ,
 10001,3,B,
 10001,5,B,Zarbi B
@@ -962,8 +993,8 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10064,11,スカイフォルム,
 10064,12,天空形态,
 10065,5,Troizépi,Pichu Troizépi
-10065,9,Spiky-eared,Spiky-eared Pichu
 10065,6,Strubbelohrform,Strubbelohr-Pichu
+10065,9,Spiky-eared,Spiky-eared Pichu
 10066,1,あおすじのすがた,
 10066,3,청색근의 모습,
 10066,4,藍條紋的樣子,
@@ -2055,9 +2086,9 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10194,9,Alolan Form,Alolan Raticate
 10194,11,アローラのすがた,
 10194,12,阿罗拉的样子,
-10195,9,,Totem Alolan Raticate
 10195,5,,Rattatac d'Alola Dominant
 10195,6,Totemform,Totem Alola Rattikarl
+10195,9,,Totem Alolan Raticate
 10196,1,オリジナルキャップ,
 10196,3,오리지널캡,
 10196,4,初始帽子,
@@ -2729,9 +2760,11 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10309,5,,Rubombelle Dominant
 10309,6,Totemform,Totem Bandelby
 10309,9,,Totem Ribombee
+10310,1,,イワンコ（マイペース）
 10310,5,,Rocabot Tempo Perso
 10310,6,Tempomacherform,Wuffels (Tempomacher)
 10310,9,,Own Tempo Rockruff
+10310,11,,イワンコ（マイペース）
 10311,1,たそがれのすがた,
 10311,3,황혼의 모습,
 10311,4,黃昏的樣子,
@@ -2778,12 +2811,12 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10316,9,Ultra Necrozma,Ultra Necrozma
 10316,11,ウルトラネクロズマ,
 10316,12,究极奈克洛兹玛,
-10317,9,,Partner Pikachu
 10317,5,,Pikachu Partenaire
 10317,6,Partnerform,Partner Pikachu
-10318,9,,Partner Eevee
+10317,9,,Partner Pikachu
 10318,5,,Évoli Partenaire
 10318,6,Partnerform,Partner Evoli
+10318,9,,Partner Eevee
 10319,1,ワールドキャップ,
 10319,3,월드캡,
 10319,4,世界帽子,
@@ -3034,10 +3067,14 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10343,9,Low Key Form,Low Key Toxtricity
 10343,11,ローなすがた,
 10343,12,低调的样子,
+10344,1,しんさくフォルム,
 10344,6,Originalform,Fatalitee (Original)
-10344,9,,Antique Sinistea
+10344,9,Antique Form,Antique Sinistea
+10344,11,しんさくフォルム,
+10345,1,しんさくフォルム,
 10345,6,Originalform,Mortipot (Original)
-10345,9,,Antique Polteageist
+10345,9,Antique Form,Antique Polteageist
+10345,11,しんさくフォルム,
 10346,1,ミルキィルビー,
 10346,3,밀키루비,
 10346,4,奶香紅鑽,
@@ -3425,3 +3462,69 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10418,6,Tiergeistform,Enamorus (Tiergeist)
 10418,9,Therian Forme,Therian Enamorus
 10418,11,れいじゅうフォルム,
+10419,1,パルデアのすがた,
+10419,9,Paldean Form,
+10419,11,パルデアのすがた,
+10420,1,パルデアのすがた,
+10420,9,Paldean Form,
+10420,11,パルデアのすがた,
+10421,1,パルデアのすがた,
+10421,9,Paldean Form,
+10421,11,パルデアのすがた,
+10422,1,パルデアのすがた,
+10422,9,Paldean Form,
+10422,11,パルデアのすがた,
+10423,1,メスのすがた,
+10423,9,Female,
+10423,11,メスのすがた,
+10424,1,みつふしフォルム,
+10424,9,Three-Segment Form,
+10424,11,みつふしフォルム,
+10425,1,マイティフォルム,
+10425,9,Hero Form,
+10425,11,マイティフォルム,
+10426,1,３びきかぞく,
+10426,9,Family of Three,
+10426,11,３びきかぞく,
+10427,1,たれたすがた,
+10427,9,Droopy Form,
+10427,11,たれたすがた,
+10428,1,のびたすがた,
+10428,9,Stretchy Form,
+10428,11,のびたすがた,
+10429,1,ブルーフェザー,
+10429,9,Blue Plumage,
+10429,11,ブルーフェザー,
+10430,1,イエローフェザー,
+10430,9,Yellow Plumage,
+10430,11,イエローフェザー,
+10431,1,ホワイトフェザー,
+10431,9,White Plumage,
+10431,11,ホワイトフェザー,
+10432,1,とほフォルム,
+10432,9,Roaming Form,
+10432,11,とほフォルム,
+10433,1,せいげんけいたい,
+10433,9,Limited Build,
+10433,11,せいげんけいたい,
+10434,1,しっそうけいたい,
+10434,9,Sprinting Build,
+10434,11,しっそうけいたい,
+10435,1,ゆうえいけいたい,
+10435,9,Swimming Build,
+10435,11,ゆうえいけいたい,
+10436,1,かっくうけいたい,
+10436,9,Gliding Build,
+10436,11,かっくうけいたい,
+10437,1,リミテッドモード,
+10437,9,Low-Power Mode,
+10437,11,リミテッドモード,
+10438,1,ドライブモード,
+10438,9,Drive Mode,
+10438,11,ドライブモード,
+10439,1,フロートモード,
+10439,9,Aquatic Mode,
+10439,11,フロートモード,
+10440,1,グライドモード,
+10440,9,Glide Mode,
+10440,11,グライドモード,
