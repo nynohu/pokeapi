@@ -31,7 +31,10 @@ DB_VENDOR = connection.vendor
 
 
 MEDIA_DIR = "{prefix}{{file_name}}".format(
-    prefix=os.environ.get("POKEAPI_SPRITES_PREFIX", "/media/sprites/")
+    prefix=os.environ.get(
+        "POKEAPI_SPRITES_PREFIX",
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/",
+    )
 )
 IMAGE_DIR = os.getcwd() + "/data/v2/sprites/sprites/"
 RESOURCE_IMAGES = []
@@ -1912,6 +1915,19 @@ def _build_pokemons():
         )
 
     build_generic((PokemonAbility,), "pokemon_abilities.csv", csv_record_to_objects)
+
+    def csv_record_to_objects(info):
+        yield PokemonAbilityPast(
+            pokemon_id=int(info[0]),
+            generation_id=int(info[1]),
+            ability_id=int(info[2]),
+            is_hidden=bool(int(info[3])),
+            slot=int(info[4]),
+        )
+
+    build_generic(
+        (PokemonAbilityPast,), "pokemon_abilities_past.csv", csv_record_to_objects
+    )
 
     def csv_record_to_objects(info):
         yield PokemonDexNumber(
